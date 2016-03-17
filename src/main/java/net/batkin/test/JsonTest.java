@@ -10,7 +10,6 @@ public class JsonTest {
 
     public static void main(String[] args) throws IOException {
         ObjectMapper om = new ObjectMapper();
-        om.enableDefaultTyping(ObjectMapper.DefaultTyping.OBJECT_AND_NON_CONCRETE);
 
         List<Parent> beings = new ArrayList<Parent>();
 
